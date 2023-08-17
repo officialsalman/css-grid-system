@@ -7,3 +7,17 @@ body{
     margin: 0;
 }
 
+.container{
+    background-color: #eee;
+    width: 700px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* px auto % can be used at same time  */
+    grid-template-rows: 100px 130px 100px;
+    grid-gap: 10px;
+}
+
+.item{
+    border: 1px solid black;
+}
