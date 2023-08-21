@@ -24,6 +24,8 @@ body {
     text-align: center;
 }
 
+/* Grid Positioning */
+
 .item6 {
     /* grid-column: 1 / 2; */
     /* Column start / Column end */
@@ -188,8 +190,6 @@ body {
     grid-template-columns: max-content 1fr 1fr min-content;
     /* grid-template-rows: repeat(2, min-content); */
     grid-template-rows: repeat(2, minmax(150px, min-content));
-   
-    
 }
 
 .tile {
