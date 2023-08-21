@@ -40,11 +40,14 @@ body {
 .container1 {
     background-color: #eee;
     width: 700px;
+    height: 1200px;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 150px);
     grid-template-rows: repeat(5, 70px);
     grid-gap: 10px 10px;
+    justify-content:center;
+    align-content: center;
 }
 
 .box {
